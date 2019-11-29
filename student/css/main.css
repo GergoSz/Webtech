@@ -4,7 +4,7 @@ html{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  scroll-behavior: smooth;
+ /* scroll-behavior: smooth;*/
 }
 
 hr{
@@ -79,7 +79,7 @@ tr:hover{
   font-size: 1rem;
   font-weight: 300;
   margin-left: 10rem;
-  color: black;
+  color: rgb(180, 180, 180);
   opacity: 0.6;
   cursor: pointer;
 }
@@ -230,6 +230,8 @@ p span{
   font-weight: 700;
 }
 
+form{
+  margin-left: 33%;
 
 
 

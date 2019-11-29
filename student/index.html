@@ -5,83 +5,30 @@
   <link href="css/main.css" rel="stylesheet" >
 
   <meta charset="utf-8">
-  <title>HELP ME</title>
+  <title>Webtech</title>
 </head>
 <body>
   <header id="header">
-    <div class="logo shadows">Geikrém <a href="https://users.iit.uni-miskolc.hu/~meszaros17/SWT_GEIKREM/GEIK-Rem_H1_REGI.html"><span>Easter Egg</span></a></div>
+    <div class="logo shadows">Cars DB <a href="https://github.com/GergoSz"><span>Szabó Gergely - B5XVY7</span></a></div>
   </header>
 
   <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="menubutton">&#9776; </span>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="sect1.html" class="menuButton">1. Manufacturer list</a>
+    <a href="sect2.html" class="menuButton">2. List cars by selected manufacturer</a>
+    <a href="sect3.html" class="menuButton">3. List of cars</a>
+    <a href="sect4.html" class="menuButton">4. Add car</a>
   </div>
 
-  <section id="main" onclick="closeNav()">
+  <section id="main" onclick="closeNav()"></section>
 
 
-    <section id="sect1" class="sec-wrap inner">
+    <div id="section-container">
 
-      
-      <div class="section-header">
-        <h2>1. Manufacturer list</h2>
+    </div>
 
-
-      </div>
-
-      <div class="content">
-        
-        <table id="man">
-          <thead>
-            <td>Name</td>
-            <td>Country</td>
-            <td>Founded</td>
-          </thead>
-          
-          
-        </table>
-      </div>
-    </section>
-
-    <section id="sect2" class="sec-wrap inner">
-
-      <div class="section-header">
-        <h2>2. List cars by selected manufacturer</h2>
-      </div>
-     
-      <div class="content">
-        
-          <form action="/manufacturer" method="get" name='confirm' id="confirm">
-            <select name="name" id="cars-select">
-              
-            </select>
-            <br><br>
-            <input type="submit" >
-          </form>
-
-          <br>
-          <br>
-          <table id="cars-table">
-            <thead>
-              <td>Name</td>
-              <td>Consumption</td>
-              <td>Color</td>
-              <td>Manufacturer</td>
-              <td>Available</td>
-              <td>Year</td>
-              <td>Horsepower</td>
-            </thead>
-            
-          </table>
-
-      </div>
-      </section>
-
-      <section id="sect3" class="sec-wrap inner">
-
-       
-
-        </section>
+    
         
       
       <footer>
